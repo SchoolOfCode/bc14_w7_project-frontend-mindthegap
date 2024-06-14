@@ -7,7 +7,6 @@
 }
 
 h2 {
-  font-family: "josefin sans", sans-serif;
   font-size: 20px;
   font-weight: bold;
   color: rgb(189, 158, 189);
@@ -15,7 +14,6 @@ h2 {
 
 p {
   font-size: 13px;
-  font-family: "josefin sans", sans-serif;
   max-width: 250px;
 }
 .arrow-image {
@@ -39,7 +37,6 @@ p {
 }
 
 .social-media-icons-container p {
-  font-family: "josfin sans", sans-serif;
   font-size: 11px;
 }
 
@@ -61,7 +58,6 @@ p {
 
 .click-for-contribution-button {
   background-color: rgb(216, 179, 216);
-  font-family: "josefin sans", sans-serif;
   border-radius: 12px;
   font-size: 12px;
   font-weight: bold;

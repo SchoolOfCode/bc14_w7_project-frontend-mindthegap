@@ -7,7 +7,6 @@ import Nav from "./pages/Nav";
 import Display from "./pages/Display";
 import Thanks from "./pages/Thanks";
 import Footer from "./components/Footer/Footer";
-import "./App.css";
 
 function App() {
   // create a resources state to pass down to DisplayResources
@@ -95,8 +94,8 @@ function App() {
   ]);
 
   return (
-    <div>
-      <BrowserRouter>
+    <div className="zoomed">
+      <BrowserRouter basename="/bridge_the_gap">
         <nav>
           <Nav />
         </nav>
