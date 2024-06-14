@@ -8,7 +8,7 @@ function ContributeResource({ resources, setResources }) {
   const [description, setDescription] = useState("");
   const [link, setLink] = useState("");
   const [category, setCategory] = useState("");
-  const [categoryList, setCategoryList] = useState([
+  const [categoryList, _setCategoryList] = useState([
     "Choose a Category",
     "Coding",
     "Design",
